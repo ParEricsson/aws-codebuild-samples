@@ -13,7 +13,7 @@ phases:
   arn:aws:codebuild:eu-west-1:164748279645:report-group/cicd-test-report: #test file information
     files:
       - 'coverage/**/*'
-       discard-paths: no #do not remove file paths from test result files      
+    discard-paths: no #do not remove file paths from test result files      
 artifacts:
   files:
     - 'coverage/**/*'
