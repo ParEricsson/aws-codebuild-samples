@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - npm test
-  reports:
+reports:
   arn:aws:codebuild:eu-west-1:164748279645:report-group/cicd-test-report:
     files:
       - 'coverage/**/*'
